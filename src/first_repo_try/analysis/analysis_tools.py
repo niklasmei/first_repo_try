@@ -1,8 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-import pandas as pd
 import numpy as np
 
 def analyse_data(raw_data: pd.DataFrame) -> pd.DataFrame:
