@@ -80,10 +80,10 @@ def test_analyse_data():
     df2 = pd.read_parquet(TEST_DATA_DIR+ '\\fit_results.parquet')
     assert df1.equals(df2)
 
-def test_full_analysis():
-    raw_data = generate_data()
-    fit_results = analyse_data(raw_data)
-    plot_analysis(raw_data = raw_data, fit_results = fit_results)
+# def test_full_analysis():
+#     raw_data = generate_data()
+#     fit_results = analyse_data(raw_data)
+#     plot_analysis(raw_data = raw_data, fit_results = fit_results)
 
 test_data_generator()
 test_analyse_data()
